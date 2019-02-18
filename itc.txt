@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		P&aacute;gina del TEC
+	</title>
+</head>
+<body>
+	<table align="center">
+		<tr>
+			<td colspan=8>
+				<img src="img/banneritc.png" alt="">
+			</td>
+			<tr>
+				<td>Inicio</td>
+				<td>Tencologico</td>
+				<td>Oferta educativa</td>
+				<td>Estudiantes</td>
+				<td>Maestros</td>
+				<td>Noticias</td>
+				<td>Egresados</td>
+				<td>Aspirantes</td>
+			</tr>
+			<tr>
+				<td colspan=8>
+					<img src="img/noticias.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=4>
+					<img src="img/noticia1.png">
+				</td>
+				<td colspan=4>
+					<img src="img/noticia1-1.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=4>
+					<img src="img/noticia2.png">
+				</td>
+				<td colspan=4>
+					<img src="img/noticia2-2.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=4>
+					<img src="img/noticia3.png">
+				</td>
+				<td colspan=4>
+					<img src="img/noticia3-2.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=4>
+					<img src="img/noticia4.png">
+				</td>
+				<td colspan=4>
+					<marquee>
+						<img src="img/noticia4-1.png">
+					</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = 4>
+					<img src="img/noticia5.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=4>
+					<img src="img/noticia6.png">
+				</td>
+			</tr>
+		</tr>
+	</table>
+</body>
+</html>
