@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pr&acute;ctica 02 de HTML5+CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png">
-		<img src="img/granthams.png">
-		<img src="img/paint.png">
+		<img src="img/granthams.png" id="granthams">
+		<img src="img/paint.png" id="paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -20,12 +21,12 @@
 			</ul>
 		</nav>
 	</header>
-	<section>
-		<article>
+	<section id="primerSeccion">
+		<article id="secc01art01">
 			<img src="img/slide.png">
 		</article>
-		<article>
-			We can offer...
+		<article id="secc01art02">
+			<span class="colorrosa letragrande nito">We can offer...</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -37,40 +38,43 @@
 				<li>Great Custom Service</li>
 			</ul>
 		</article>
-		<img src="img/bg_offer.png">
+		<img src="img/bg_offer.png" id="bgoffer">
 	</section>
-	<section>
-		01772250207
-	</section>
-	<section>
+	<section id="segundaSeccion">
 		<article>
-			<marquee behavior=Alternate><img src="img/cerdito.png"> </marquee>
-			
-			Save this Spring
+			<span class="colorrosa letramediana nito">01772250207</span>
+		</article>
+	</section>
+	<section id="terceraSeccion">
+		<article>
+			<marquee behavior=Alternate scrollamount=1000px><img src="img/cerdito.png"> </marquee>
+			<span class="colorrosa nito">Save this Spring</span>
 			<br>
 			Faboulous discounts on canva's and roll up's as well as many others.
 			<p>
-			Find out more...
+				<span class="colorrosa nito">Find out more...</span>
 		</article>
 		<article>
 			<img src="img/hoja.png">
-			ECO Friendly
+			<span class="colorverde nito">ECO Friendly</span>
 			<br>
 			ECI Friendly Materials used in our production process. Recycled papers and paper from sustaniable forest (including FSC papers) are available across our range of Printing Services.
 		</article>
 		<article>
 			<img src="img/new.png">
+			<span class="colorazul nito">Upload your file</span>
 			Making it easy to order your printing today. Our upload facility enables you to send your files directly to us. Use the notes section to inform us your order, then sit back and wait for a member of out team to contact you.
 			<p>
-			Upload Your File Now...
+			<span class="colorazul">Upload Your File Now...</span>	
 		</article>
 		<article>
-			Stay in touch <br>
+			<span class="colorrosa letramediana">Stay in touch</span>
+			<br>
 			Join our mailing list today
 			<input type="text" placeholder="Email goes here" name="">
 			<input type="Button" value="Send" name="">
 			<br>
-			Feeling Social?
+			<span class="colorazul">Feeling Social?</span>
 			<img src="img/icon_facebook.png">
 			<img src="img/icon_twitter.png">
 			<img src="img/image-right.png">
