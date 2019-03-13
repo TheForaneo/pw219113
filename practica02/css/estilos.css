@@ -5,6 +5,9 @@ body{
 	min-width: 1078px;
 	max-width: 1078px;
 }
+footer{
+	background: #4267B3;
+}
 header input{
 	float: right;
 	margin-top: 15px;
@@ -28,6 +31,10 @@ header nav ul li{
 	position: relative;
 	top: -406px;
 	left: -35px;
+}
+#footerSeccion article{
+	display: inline-block;
+	background: 
 }
 #granthams{
 	margin-left: 25px;
@@ -64,8 +71,34 @@ header nav ul li{
 	content: "• ";
 	color: #FF0099;
 }
+#secc03art04{
+	/*border: 1px solid red;*/
+	/*margin-top: 40px;*/
+	padding-top: 40px;
+}
+#terceraSeccion article{
+	display: inline-block;
+	width: 23%;
+	vertical-align: top;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	color: white;
+	background: #8BC500;
+}
+.colorazul{
+	color: #4267B3;
+}
 .colorrosa{
 	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
 }
 .letragrande{
 	font-size: 3.5em;
