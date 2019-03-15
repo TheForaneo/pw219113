@@ -1,0 +1,20 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	min-width: 1024px;
+	max-width: 1024px
+}
+header input{
+	
+}
+
+#menu{
+	position: relative;
+}
+#secc01{
+	background: #2b2b2b;
+}
+#secc01 article{
+	
+	display: inline-block;
+}
