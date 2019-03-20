@@ -1,0 +1,13 @@
+
+@font-face{
+	font-family: Fontdiner Swanky;
+	src:url("Fontdiner_Swanky/FontdinerSwanky-Regular.ttf");
+}
+#textoReferenciado{
+	font-family: 'Roboto', sans-serif;
+	color: red;
+}
+#textoDescargado{
+	font-family: 'Fontdiner Swanky', display;
+	color: red;
+}
