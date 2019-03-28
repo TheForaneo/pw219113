@@ -1,0 +1,19 @@
+JavaScript: Web -Interpretado
+	Si es un lenguaje de programacion (Si es un lenguaje de programacion)
+Para que sirve:
+	Interaccion con el usuario
+	Manipulacion DOM
+		Document Object Model
+
+Comparte con Java:
+	Sintaxis
+	Uso de punto y coma opcional
+Cubrir:
+	Interaccion
+	Arrastrar y soltar
+	Webworkers
+	Almacenamiento Local y Sesion
+	Notificaciones
+	Geolocalizacion
+	Paquetes NPM (Node)
+	Vue.js - Node - Mongo CRUD
