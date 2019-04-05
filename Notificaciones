@@ -1,0 +1,8 @@
+Notificaciones: JavaScript <--- http(s)
+	Configuracion del navegador:
+	default   <--- No autorizado, No denegado
+	granted   <--- autorizado para notificaciones 
+	denied    <--- no autorizado para notificaciones 
+
+
+	
