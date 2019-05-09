@@ -7,15 +7,27 @@
 <body>
 	<div id="app">
 		<h1>{{ titulo }}</h1>
+		<input type="text" v-model="nuevaFruta" @keyup.enter="agregarFruta">
+		<button @click="agregarFruta">Agregar fruta</button>
 		<ul>
 			<li v-for="fruta of frutas">{{ fruta }}</li>
 		</ul>
+		
 		<ul>
-			<li v-for="fruta of frutas2">{{ fruta.nombre }}
-			<span v-if="fruta.cantidad == 0">no hay en almacen</span></li>
+			<li v-for="fruta of frutas2"> 
+			<!-- <li v-for="fruta of frutas2">{{ fruta.nombre }} - {{fruta.cantidad}} -->
+			<input type="text" v-model="fruta.cantidad">
+			{{ fruta.nombre }}
+			<!--<marquee scrollamount=100>-->
+			<button @click="fruta.cantidad++"> + </button>
+			<button @click="fruta.cantidad--"> - </button>
+			<!--</marquee>-->
+			<span v-if="fruta.cantidad == 0">no hay en almacen</span>
+			<span v-if="fruta.cantidad < 0">debes fruta</span></li>
 		</ul>
+		<marquee>	<h4>Total: {{ sumarFrutas }}</h4> </marquee>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script type="js/primervue.js"></script>
+	<script src="jls/primervue.js"></script>
 </body>
 </html>
